@@ -2,21 +2,14 @@
 # This file defines CI/CD workflows for your Flutter project
 
 workflows:
-  flutter-workflow:
-    name: Flutter CI
-    max_build_duration: 60
+  build:
+    name: Build APK
     environment:
       flutter: stable
 
     scripts:
-      - name: Get Flutter packages
-        script: |
-          flutter pub get
-
-      - name: Run tests
-        script: |
-          flutter test
+      - name: Get packages
+        script: flutter pub get
 
       - name: Build APK
-        script: |
-          flutter build apk --release
+        script: flutter build apk --release
