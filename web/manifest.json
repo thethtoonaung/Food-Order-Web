@@ -1,6 +1,6 @@
 {
-    "name": "food_order_all_platforms",
-    "short_name": "food_order_all_platforms",
+    "name": "gourmet_haven",
+    "short_name": "gourmet_haven",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
